@@ -14,6 +14,7 @@ module.exports = {
 		open: true,
 		hot: true,
 		liveReload: true,
+		historyApiFallback: true,
 		client: {
 			overlay: false,
 			logging: "warn",
